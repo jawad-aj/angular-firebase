@@ -65,7 +65,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100%;
-  background: #a9ecdb;
+  background: #368b97;
 }
 
 .displayTableCell {
@@ -340,7 +340,7 @@ a:not([href]):not([tabindex]):hover {
 }
 
 .bg-dark {
-  background-color: #a9ecdb !important;
+  background-color: #368b97 !important;
 }
 
 .gap-right {
@@ -662,7 +662,13 @@ body .table thead th {
     box-shadow: none;
   }
 }
-.ml{
+
+.ml {
   margin-left: 140px;
   --mdc-circular-progress-active-indicator-color: #f96ea8;
+}
+
+.dsb {
+  background-color: #368b97 !important;
+  cursor: pointer;
 }
